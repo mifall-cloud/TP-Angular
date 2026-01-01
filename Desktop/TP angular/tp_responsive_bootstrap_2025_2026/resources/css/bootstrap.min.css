@@ -1,0 +1,54 @@
+/*!
+ * Bootstrap v4.6.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+/*# sourceMappingURL=bootstrap.min.css.map */
+
+@font-face {
+  font-family: 'sansation';           
+  src: url('tp_responsive_bootstrap_2025_2026\resources\Sansation\Sansation_Regular.ttf') format('truetype'); 
+  font-weight: normal;                
+  font-style: normal;                 
+}
+
+
+:root {
+    --darkColor: #051d4e;
+    --lightColor: #fcfcfc;
+}
+
+.darkZone{
+    background-color: var(--darkColor);
+    color: var(--lightColor);
+}
+
+.lightZone{
+    color: var(--darkColor);
+    background-color: var(--lightColor);
+}
+ 
+
+.lightZone h1{
+    border-bottom: 1px solid var(--darkColor);
+    font-size: 38px;
+}
+
+.darkZone h1{
+    border: 1px solid var(--lightColor);
+    font-size: 38px;
+}
+
+.lightZone > section > section >h1{
+    border-bottom: none;
+    font-size: 20px;
+}
+
+header > span{
+    font-size: 38px;
+    font-family: 'sansation';
+}
+
+.container{
+    border-bottom: solid 2px var(--darkColor);
+}
